@@ -17,6 +17,10 @@ main{
     align-items: center;
     background-color: blue;
     position: relative;
+    /* border-top-left-radius: 5%;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 8%;
+    border-bottom-left-radius: 10%; */
 }
 .inner{
     margin-top: -.1rem;
@@ -53,10 +57,13 @@ main{
 }
 div{
     margin-top: 2rem;
+    display:flex;
+    gap: 10px;    
 }
-#value{
+#display{
 background-color: white;
-padding: 0.3rem 5rem;
+width: 25rem;
+text-align: center;
 }
-#copy{
+#button{
 }

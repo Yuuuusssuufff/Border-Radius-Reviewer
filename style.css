@@ -3,4 +3,60 @@
 }
 body{
     background: yellow;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    }
+main{
+    width: 29rem;
+    height: 18rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blue;
+    position: relative;
+}
+.inner{
+    margin-top: -.1rem;
+    width: 25rem;
+    height: 15rem;
+    background-color: orange;
+}
+#value1{
+    position: absolute;
+    top: 5px;
+    left: 5px;
+}
+#value2{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    }
+    
+    #value3{
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+}
+#value4{
+    position: absolute;
+    bottom: 5px;
+    left: 5px;
+}
+#value1,#value2,#value3,#value4{
+    width: 2rem;
+    height: 1rem;
+    font-size: 10px;
+    outline: none;
+}
+div{
+    margin-top: 2rem;
+}
+#value{
+background-color: white;
+padding: 0.3rem 5rem;
+}
+#copy{
 }

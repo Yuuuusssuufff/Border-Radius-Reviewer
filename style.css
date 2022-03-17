@@ -25,27 +25,24 @@ main{
     background-color: orange;
 }
 #value1{
-    position: absolute;
     top: 5px;
     left: 5px;
 }
 #value2{
-    position: absolute;
     top: 5px;
     right: 5px;
     }
     
     #value3{
-    position: absolute;
-    bottom: 5px;
+   bottom: 5px;
     right: 5px;
 }
 #value4{
-    position: absolute;
     bottom: 5px;
     left: 5px;
 }
 #value1,#value2,#value3,#value4{
+    position:absolute;
     width: 2rem;
     height: 1rem;
     font-size: 10px;
